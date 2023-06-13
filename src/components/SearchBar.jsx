@@ -1,4 +1,3 @@
-// @ts-check
 import React from 'react';
 import {SafeAreaView, StyleSheet, Text, TextInput, View} from 'react-native';
 
