@@ -1,13 +1,13 @@
-// @ts-check
 import React from 'react';
 import {View, Image, StyleSheet, Text, Pressable} from 'react-native';
 import {useNavigation} from '@react-navigation/native';
+import {SCREENS} from '../api/constants';
 
 export const MovieListItem = ({title, year, id}) => {
   const navigation = useNavigation();
 
   const navigateToDetailsScreen = () => {
-    navigation.navigate('MovieDetails', {id, title});
+    navigation.navigate(SCREENS.MovieDetails, {id, title});
   };
 
   return (

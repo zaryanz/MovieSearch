@@ -22,5 +22,6 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     fontSize: 16,
     color: '#111111',
+    backgroundColor: '#ffffff',
   },
 });
